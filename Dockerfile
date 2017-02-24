@@ -30,4 +30,4 @@ RUN \
 		iconv \
 		zip
 
-CMD service redis-server start
+CMD service redis-server start && bash
